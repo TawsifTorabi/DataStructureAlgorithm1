@@ -5,12 +5,12 @@ Return the minimum number of moves required to move each student to a seat such 
 Note that there may be multiple seats or students in the same position at the beginning. 
 
 
-## Example 1: 
+### Example: 
 Input: seats = [3,1,5], students = [2,7,4] 
 Output: 4 
 
 
-##Explanation: 
+### Explanation: 
 The students are moved as follows: 
 - The first student is moved from position 2 to position 1 using 1 move. 
 - The second student is moved from position 7 to position 5 using 2 moves. 
@@ -18,7 +18,7 @@ The students are moved as follows:
 In total, 1 + 2 + 1 = 4 moves were used. 
 
 
-##Problem Statement: 
+### Problem Statement: 
 As in this problem, the seats and students size are same, and the condition is now two students in same seats, </br>
 the easiest and simplest way to solve this problem is to sort the seats number and the students number array and subtracting student[i] from seats[i] </br>
 if student[i] is less than seats[i]. And do the opposite if the otherways.</br>
