@@ -6,7 +6,7 @@ Note that there may be multiple seats or students in the same position at the be
 
 
 ### Example: 
-Input: seats = [3,1,5], students = [2,7,4] 
+Input: seats = [3,1,5], students = [2,7,4] </br> 
 Output: 4 
 
 
